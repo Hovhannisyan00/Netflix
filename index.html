@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arsen</title>
+    <style>
+        .divider {
+            background-color: whitesmoke;
+            padding-left: 550px;
+        }
+        .btn {
+            background-color: brown;
+            width: 400px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="divider">
+        <h1>Arsen's Website</h1>
+        <h2>Welcome to Arsen's website!</h2>
+        <p>This is a simple website created using HTML, CSS, and JavaScript</p>
+        <div id="slideshow">
+            <img
+            style="height: 600px; width:400px;"
+             src="/arsen/1.jpg" alt="Image 1">
+        </div>
+        <button class="btn">btn</button>
+
+    </div>
+        <script>
+            const btm = document.getElementsByClassName("btn")
+            btm[0].addEventListener("click", function() {
+                alert("Button clicked!")
+            })
+        </script>
+</body>
+</html>
